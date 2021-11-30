@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <h1>Ben's First Website</h1>
+    <h3 id='title'>Ben's First Website</h3>
+	  <h6><a href="#about me">ABOUT ME</a>
+	  <a href="#photos">PHOTOS</a>
+	  <a href="#random facts">RANDOM FACTS</a></h6>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles/style.css">
   </head>
 <body>
-  <hr>
-  <ul>
-    <li><a href="#about me">About Me</a></li>
-	<li><a href="#photos">Photos</a></li>
-	<li><a href="#random facts">Random Facts</a></li>
-  </ul>
-<section>
-  <hr>
-  <ul>
-  <h1><a id="about me">Get To Know Me</a></h1>
-<img src="images/profile.jpg" height="400" width="270" alt="Ben">
-<style.css>
-  <h4>Hi, I'm Ben!</h4>
+<h1><a id="about me">Get To Know Me</a></h1>
+<img class="center" src="images/profile.jpg" width='270px' height='400px' alt="Ben">
+  <section class='about'>
+    <ul>
+  <h2>Hi, I'm Ben!</h2>
   <li>
     <article>
        I'm a highschool senior. I enjoy reading church history, and practicle books. I like taking walks on the GFA world campus. I'm pursuing knowledge, and you'll propably find me drinking tea.
     </article>
   </li>
-<h3>My Photo Journey</h3>
+<h2>My Photo Journey</h2>
   <li>
     <article>
       I started taking pictures when I was fourteen years old. I've been trained by Amy and Jordan Demos and I have been inspired a lot by my older brother Scott, who is also a photographer. I like to shoot portrait, landscape, and macro photos. (I also dabble in videography.)
     </article>
   </li>
-<h3>Career Highlights</h3>  
+<h2>Career Highlights</h2>  
   <li>
     <article>
       I have taken photos for multiple businesses, including but not limited to: Lake Ellen Camp, Midtown Bait and Tackle, Old Navy, ect...   
@@ -38,14 +33,26 @@
   </li>
   </ul>
 </section>
-<section>
+<section class='row'>
 <h1><a id="photos">Photos</a></h1>
-  <img src="images/1.jpg" height="400" width="275" alt="Ben wearing Old Navy jacket">
-  <img src="images/2.jpg" height="400" width="275" alt="Dollar bill origami">
-  <img src="images/3.jpg" height="400" width="275" alt="A nutcracker in front of a christmas tree">
-  <br>
-  <img src="images/4.jpg" height="175" width="400" alt="Sunset">
-  <img src="images/5.jpg" height="175" width="400" alt="Tree in a field">
+  <section class='column'>
+    <img src="images/1.jpg" alt="Ben wearing Old Navy jacket" style="width:100%">
+  </section>
+  <section class='column'>  
+	<img src="images/2.jpg" alt="Dollar bill origami" style="width:100%">
+  </section> 
+  <section class='column'>
+    <img src="images/3.jpg" alt="A nutcracker in front of a christmas tree" style="width:100%">
+  </section>
+  <section class='column'>
+	<img src="images/4.jpg"alt="Sunset" style="width:100%">
+  </section>
+  <section class='column'>
+	<img src="images/5.jpg" alt="Tree in a field" style="width:100%">
+  <section class='column'>
+    <img src="images/6.jpg" alt="A road in the forest" height='200px' width='360px'>
+  </section>
+  </section>
 </section>
 <section>
 <h1><a id="random facts">Random Facts</a></h1>
@@ -54,6 +61,5 @@
   </article>
 </section>
 </body>
-<hr>
   <footer>Built with awesomeness by: Ben Peterson</footer>
 </html>

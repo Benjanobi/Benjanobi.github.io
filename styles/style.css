@@ -1,3 +1,91 @@
-#main{
-	font: sans-serif;
+body {
+	margin: 0 auto;
+    padding: 0;
+	font-family: open-sans;
+	background-color: #F5F5F5;
+}
+
+h1 {
+	border: 1px solid gray;
+	background-color: #C7FFCB;
+	font-size: 30px;
+	text-align: center;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+h3 {
+	border: 1px solid gray;
+	margin-top: 30px 15px;
+	font-size: 25px;
+	text-align: center;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+h6 {
+	letter-spacing: 2px;
+	font-weight: thin;
+	font-size: 10px;
+	font-family: "Times New Roman", Times, monospace; 
+	margin: 25px auto;
+	text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+	margin: 25px 350px;
+	border: dotted 2px black;
+	border-radius: 15px
+}
+
+article {
+	margin: 25px 45px;
+}
+
+a:link {
+	padding: 7px 15px;
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+a:active {
+	color: darkgray;
+	text-decoration: none;
+}
+
+.column {
+    float: left;
+    width: 24%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+	background-color: #F0F0F0;
+	border: 1px solid gray;
+	margin: 1px 0;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
 }
