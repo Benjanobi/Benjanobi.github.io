@@ -5,10 +5,16 @@ body {
 	background-color: #F5F5F5;
 }
 
+header {
+	position: fixed;
+}
+
 h1 {
-	border: 1px solid gray;
-	background-color: #C7FFCB;
-	font-size: 30px;
+	letter-spacing: 2px;
+	font-weight: thin;
+	font-size: 10px;
+	font-family: "Times New Roman", Times, monospace; 
+	margin: 25px auto;
 	text-align: center;
 }
 
@@ -18,19 +24,17 @@ h2 {
 
 h3 {
 	border: 1px solid gray;
+	background-color: #C7FFCB;
+	font-size: 30px;
+	text-align: center;
+}
+
+h4 {
+	border: 1px solid gray;
 	margin-top: 30px 15px;
 	font-size: 25px;
 	text-align: center;
 	font-family: Brush Script MT, Brush Script Std, cursive;
-}
-
-h6 {
-	letter-spacing: 2px;
-	font-weight: thin;
-	font-size: 10px;
-	font-family: "Times New Roman", Times, monospace; 
-	margin: 25px auto;
-	text-align: center;
 }
 
 .center {
