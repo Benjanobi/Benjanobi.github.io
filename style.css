@@ -5,12 +5,6 @@ body {
 	background-color: #F5F5F5;
 }
 
-@media only screen and (max-width:640px) {
-  .sqs-block-html {
-    margin: 10px;
-  }
-}
-
 header {
 	border-top: 3px solid #C7FFCB;
 	background-color: #F5F5F5;
@@ -61,9 +55,9 @@ h4 {
 }
 
 .center {
-  display: block;
-  margin-left: 225px;
-  margin-right: auto;
+    display: block;
+    margin-left: 225px;
+    margin-right: auto;
 }
 
 .about {
@@ -72,9 +66,14 @@ h4 {
 }
 
 article {
+    width: auto;
+    min-width: min-content;
+    background-color: lightblue;
+    padding: 10px;
+    margin-left: clamp(100px, 25vw, 200px);
+	margin-right: clamp(100px, 25vw, 200px);
 	line-height: 30px;
 	letter-spacing: 1px;
-	margin: 25px 225px;
 	font-family: sans-serif;
 }
 
