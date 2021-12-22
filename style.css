@@ -6,11 +6,13 @@ body {
 }
 
 header {
+	border-top: 3px solid #C7FFCB;
 	background-color: #F5F5F5;
 	width: 100%;
 	position: sticky;
 	top: 0;
 	z-index: 10;
+	padding-top: 1px;
 }
 ul {
   list-style-type: none;
@@ -24,16 +26,19 @@ li {
 h1 {
 	letter-spacing: 2px;
 	font-weight: thin;
-	font-size: 10px;
-	font-family: "Times New Roman", Times, monospace; 
-	margin-bottom: 15px;
-	margin-top: 15px;
+	font-size: 12px;
+	font-family: Times New Roman, Times, monospace; 
+	margin-bottom: 5px;
+	margin-top: 5px;
 	text-align: center;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 17px;
 }
 
 h2 {
+	margin-left: 200px; 
 	font-family: sans-serif;
+	letter-spacing: 1px;
 }
 
 h3 {
@@ -44,10 +49,6 @@ h3 {
 }
 
 h4 {  
-    border-top: 3px solid #C7FFCB;
-	padding-top: 10px;
-	padding-bottom: 0;
-	margin-top: 0;
 	font-size: 25px;
 	text-align: center;
 	font-family: Brush Script MT, Brush Script Std, cursive;
@@ -55,7 +56,7 @@ h4 {
 
 .center {
   display: block;
-  margin-left: auto;
+  margin-left: 225px;
   margin-right: auto;
 }
 
@@ -65,12 +66,18 @@ h4 {
 }
 
 article {
-	margin: 25px 45px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin: 25px 225px;
+	font-family: sans-serif;
 }
 
-#title {
-	background-color: #F5F5F5;
+#title {  
+    margin-top: -10px;
+    margin-left: 50px;
+    float: left;
 	font-size: 25px;
+	text-align: left;
 	font-family: Brush Script MT, Brush Script Std, cursive;
 }
 
