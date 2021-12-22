@@ -5,6 +5,12 @@ body {
 	background-color: #F5F5F5;
 }
 
+@media only screen and (max-width:640px) {
+  .sqs-block-html {
+    margin: 10px;
+  }
+}
+
 header {
 	border-top: 3px solid #C7FFCB;
 	background-color: #F5F5F5;
