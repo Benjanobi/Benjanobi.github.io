@@ -2,11 +2,12 @@ body {
 	margin: 0 auto;
     padding: 0;
 	font-family: open-sans;
-	background-color: #F5F5F5;
+	color: white;
+	background-color: #badeda;
 }
 
 header {
-	border-top: 3px solid #C7FFCB;
+	border-top: 3px solid #90b7b6;
 	background-color: #F5F5F5;
 	width: 100%;
 	position: sticky;
@@ -14,6 +15,17 @@ header {
 	z-index: 10;
 	padding-top: 1px;
 }
+
+#title {  
+    margin-top: -10px;
+    margin-left: 50px;
+    float: left;
+	font-size: 25px;
+	text-align: left;
+	font-family: arial;
+	color: black;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -36,73 +48,66 @@ h1 {
 }
 
 h2 {
-	margin-left: 200px; 
+	padding-left: 200px; 
 	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 40px;
 	letter-spacing: 1px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #90b7b6;
 }
 
 h3 {
-	border: 1px solid gray;
-	background-color: #C7FFCB;
-	font-size: 30px;
+	font-size: 65px;
 	text-align: center;
-}
-
-h4 {  
-	font-size: 25px;
-	text-align: center;
-	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-weight: 3;
+	font-family: arial;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #90b7b6;
+	border: solid 4px white;
+	border-radius: 40px;
+	margin-left: 500px;
+	margin-right: 500px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 .center {
     display: block;
-    margin-left: 225px;
+    padding-left: 225px;
     margin-right: auto;
-}
-
-.about {
-	border: dotted 2px black;
-	border-radius: 15px
 }
 
 article {
     width: auto;
     min-width: min-content;
-    background-color: lightblue;
-    padding: 10px;
-    margin-left: clamp(100px, 25vw, 200px);
-	margin-right: clamp(100px, 25vw, 200px);
+    padding: 25px;
 	line-height: 30px;
 	letter-spacing: 1px;
 	font-family: sans-serif;
+	border: solid 3px #90b7b6;
+	border-radius: 30px;
+	margin: 15px 150px;
+	background-color: #fd8105;
 }
 
-#title {  
-    margin-top: -10px;
-    margin-left: 50px;
-    float: left;
-	font-size: 25px;
-	text-align: left;
-	font-family: Brush Script MT, Brush Script Std, cursive;
-}
-
-a:link {
+a.navlink:link {
 	padding: 7px 15px;
 	color: black;
 	text-decoration: none;
 }
 
-a:visited {
+a.navlink:visited {
 	color: black;
 	text-decoration: none;
 }
 
-a:hover {
+a.navlink:hover {
 	color: black;
 	text-decoration: none;
 }
 
-a:active {
+a.navlink:active {
 	color: darkgray;
 	text-decoration: none;
 }
@@ -116,7 +121,7 @@ a:active {
 .row::after {
     content: "";
     clear: both;
-    display: table;
+    display: grid;
 }
 
 footer {
