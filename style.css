@@ -18,10 +18,8 @@ header {
 
 #title {  
     margin-top: -10px;
-    margin-left: 50px;
-    float: left;
 	font-size: 25px;
-	text-align: left;
+	text-align: center;
 	font-family: arial;
 	color: black;
 }
