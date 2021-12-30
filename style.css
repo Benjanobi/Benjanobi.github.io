@@ -3,9 +3,21 @@ body {
     padding: 0 auto;
 	font-family: open-sans;
 	color: white;
-	background-color: #badeda;
+	background-color: black;
 }
 
+li {
+	display: inline;	
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 125px;
+    height: 125px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
 
 .navigation-bar ul {
   padding: 0px;
@@ -20,16 +32,7 @@ body {
 	font-size: 25px;
 	text-align: center;
 	font-family: arial;
-	color: black;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-li {
-  display: inline;
+	color: white;
 }
 
 h1 {
@@ -86,22 +89,22 @@ article {
 
 a.navlink:link {
 	padding: 7px 15px;
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
 a.navlink:visited {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
 a.navlink:hover {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
 a.navlink:active {
-	color: darkgray;
+	color: white;
 	text-decoration: none;
 }
 
