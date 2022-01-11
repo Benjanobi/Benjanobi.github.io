@@ -1,77 +1,42 @@
 body {
-	margin: 0 auto;
-    padding: 0 auto;
+	margin: 0;
 	font-family: open-sans;
-	color: white;
 	background-color: black;
-}
-
-li {
-	display: inline;	
 }
 
 .logo {
     display: inline-block;
-    vertical-align: top;
-    width: 125px;
-    height: 125px;
-    margin-right: 20px;
-    margin-top: 15px;
-}
-
-.navigation-bar ul {
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
-  display:inline-block;
-  vertical-align:top;
-}
-
-#title {  
-    margin-top: -10px;
-	font-size: 25px;
-	text-align: center;
-	font-family: arial;
-	color: white;
+    width: 100px;
+    height: 100px;
+	float: left;
+	padding-left: 100px;
 }
 
 h1 {
-	letter-spacing: 2px;
-	font-weight: thin;
-	font-size: 12px;
-	font-family: Times New Roman, Times, monospace; 
-	margin-bottom: 5px;
-	margin-top: 5px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	font-weight: 500;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 17px;
+	text-transform: uppercase;
 }
+
 
 h2 {
-	padding-left: 200px; 
-	padding-right: 200px;
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 40px;
-	letter-spacing: 1px;
-	-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #90b7b6;
-}
-
-h3 {
-	font-size: 65px;
-	text-align: center;
-	font-weight: 3;
-	font-family: arial;
-	-webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #90b7b6;
-	margin: 35px 175px 35px 175px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	font-weight: 500;
+	text-align: left;
+	text-transform: uppercase;
+	padding-left: 100px;
 }
 
 .center {
-    display: block;
-    padding-left: 225px;
-	padding-right: 225px;
+  display: block;
+  padding-top: 35px;
+  margin-left: 610px;
+  margin-right: auto;
 }
 
 article {
@@ -82,9 +47,13 @@ article {
 	line-height: 30px;
 	letter-spacing: 1px;
 	font-family: sans-serif;
-	border: solid 3px #90b7b6;
-	border-radius: 30px;
-	background-color: #fd8105;
+	color: white;
+}
+
+.navigation-bar {
+	text-align: right;
+	padding-top: 50px;
+	padding-right: 100px
 }
 
 a.navlink:link {
@@ -121,9 +90,12 @@ a.navlink:active {
 }
 
 footer {
-	background-color: #F0F0F0;
-	border: 1px solid gray;
+	background-color: darkgray;
 	margin: 0px 0px 0px 0px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
 	text-align: center;
-	font-family: "Times New Roman", Times, serif;
+	text-transform: uppercase;
 }
