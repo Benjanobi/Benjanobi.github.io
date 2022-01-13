@@ -1,19 +1,96 @@
 body {
 	margin: 0;
 	font-family: open-sans;
-	background-color: #E1CDAC;
+	background-color: #0D0D0D;
 }
 
 .logo {
-    display: inline-block;
     width: 100px;
     height: 100px;
-	float: left;
-	padding: 20px 15px 0px 15px;
 	margin-left: 50px;
+	margin-bottom: -15px;
 	background-color: #434A54;
 	border: solid #FCFBF9;
 	border-width: 5px;
+}
+
+.navMenu {
+	
+	font-family: 'Raleway', sans-serif;
+	position: fixed;
+	left: 20%;
+	top: 5%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #888890;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #CAE1E7;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(110px);
+  transform: translateX(110px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.cover {
+	text-align: center;
+	width: 100%;
+	height: 700px;
+	background-image: url("images/12.jpg"), url("images/14.jpg");
+	background-color: white;
+	background-position: top calc(200px - 20vw) right, top calc(200px - 20vw) left;
+	background-attachment: fixed;
+	background-size: 49.79%;
+	background-repeat: no-repeat;
 }
 
 h1 {
@@ -23,6 +100,10 @@ h1 {
 	font-size: 28px;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+#me {
+	text-align: center;
 }
 
 .center {
@@ -43,60 +124,76 @@ h2 {
 	text-transform: uppercase;
 }
 
-.article {
+@media screen and (min-width:901px) { .article { 
 	border-top: solid #FCFBF9;
 	border-bottom: solid #FCFBF9;
 	border-width: 5px;
 	background-color: #434A54;
-    width: auto;
-    min-width: min-content;
-    padding: 25px 250px 25px 250px;
+	padding: 15px 250px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	color: white;
+}
+}
+
+@media screen and (max-width:900px) { .article { 
+	border-top: solid #FCFBF9;
+	border-bottom: solid #FCFBF9;
+	border-width: 5px;
+	background-color: #434A54;
+	padding: 15px 25px;
 	line-height: 30px;
 	letter-spacing: 1px;
 	font-family: sans-serif;
 	color: white;
 }
 
-.navigation-bar {
-	text-align: center;
-	padding: 15px 0px 15px 0px;
-	position: fixed;
-    top: 0;
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
     width: 100%;
-	background-color: #E1CDAC;
+  }
 }
 
-a.navlink:link {
-	padding: 7px 15px;
-	color: white;
-	text-decoration: none;
-}
-
-a.navlink:visited {
-	color: white;
-	text-decoration: none;
-}
-
-a.navlink:hover {
-	color: white;
-	text-decoration: none;
-}
-
-a.navlink:active {
-	color: white;
-	text-decoration: none;
-}
-
-.column {
-    float: left;
-    width: 24%;
-    padding: 5px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: grid;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 footer {
