@@ -49,12 +49,21 @@ h1 {
   }
 }
 
-.cover {
-	background-image: url("images\Cover.jpg");
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-height: 700px;
+#example1 {
+  border: 2px solid black;
+  padding: 25px;
+  background: url(mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+
+#cover {
+	border: 2px solid black;
+  padding: 25px;
+  background: url(Flower-Cover.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
 }	
 
 @media only screen and (max-width: 768px) {
