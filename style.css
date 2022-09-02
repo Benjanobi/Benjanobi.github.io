@@ -49,29 +49,17 @@ h1 {
   }
 }
 
-#example1 {
-  border: 2px solid black;
-  padding: 25px;
-  background: url(mountain.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-
-#cover {
-	border: 2px solid black;
-  padding: 25px;
-  background: url(Flower-Cover.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
-}	
-
-@media only screen and (max-width: 768px) {
-.cover {
-	background-image: url(cover-mobile.jpg);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+@media screen and (min-width:800px) {.cover {
+    background: url(images/Flower-Cover.jpg);
+    background-repeat: no-repeat; 
 	background-size: 100%;
+    width: 1900px;
+    height: 900px;
+}	
+	
+@media only screen and (max-width: 600px) { .cover-mobile {
+	background: url(images/cover-mobile.jpg);
+    background-repeat: no-repeat; 
   }	
 }
 
@@ -93,17 +81,23 @@ h2 {
 	color: white;
 }
 
-@media screen and (max-width:768px) { .article { 
+@media only screen and (max-width: 600px) { .article { 
 	padding: 15px 25px;
   }
 }
 
-@media screen and (max-width:768px) { div.gallery img {
-  width: 100%;
+@media only screen and (max-width: 600px) { div.gallery img {
+  width: 25%;
   height: auto;
   float: center;
   }
 }
+
+div.gallery img {
+  width: 25%;
+  height: auto;
+  float: left;
+  }
 
 footer {
 	text-align: center;
