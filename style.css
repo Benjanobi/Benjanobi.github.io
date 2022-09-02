@@ -50,17 +50,16 @@ h1 {
 }
 
 .cover {
-	background-image: url("images\cover.jpg");
+	background-image: url("images\Cover.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 3000%;
-	height: 675px;
+	background-height: 700px;
 }	
 
 @media only screen and (max-width: 768px) {
 .cover {
-	background-image: url(cover-mobile.jpeg);
+	background-image: url(cover-mobile.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100%;
