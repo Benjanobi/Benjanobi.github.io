@@ -1,11 +1,11 @@
   body {
 	font-family: 'Raleway', sans-serif;
-	background-color: black;
+	color: #F2F2F2;
+	background-color: #121212;
     margin: 0;
   }
 
 .navbar {
-	background-color: black;
 	background: rgba(0, 0, 0, 0.7);
 	float: center;
 	position: relative;
@@ -21,13 +21,21 @@
 	position: relative;
 	display: inline-block;
 	text-align:center;
-	color: white;
+	color: #F2F2F2;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
 .navbar a:hover {
 	color: lightgray;
+}
+
+div .background {
+  width: 600px;
+  height: auto;
+  background-image: url("C:\Users\Ben\OneDrive\Documents\GitHub\Benjanobi.github.io\images\cover.jpg"), url(C:\Users\Ben\OneDrive\Documents\GitHub\Benjanobi.github.io\images\cover (2).jpg);
+  background-attachment: fixed, scroll;
+  background-repeat: no-repeat, repeat-y;
 }
 
 h1 {
@@ -37,7 +45,6 @@ h1 {
 	border-width: 3px;
 	margin: 0%;
 	padding: 15px 250px;
-	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-size: 28px;
 	text-align: center;
@@ -49,17 +56,7 @@ h1 {
   }
 }
 
-@media screen and (min-width:800px) {.cover {
-    background: url(images/Flower-Cover.jpg);
-    background-repeat: no-repeat; 
-	background-size: 100%;
-    width: 1900px;
-    height: 900px;
-}	
-	
-
 h2 {
-	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-size: 28px;
 	font-weight: 500;
@@ -68,12 +65,10 @@ h2 {
 }
 
 .article {
-	background-color: black;
 	padding: 15px 250px;
 	line-height: 30px;
 	letter-spacing: 1px;
 	font-family: sans-serif;
-	color: white;
 }
 
 @media only screen and (max-width: 600px) { .article { 
@@ -96,6 +91,5 @@ div.gallery img {
 
 footer {
 	text-align: center;
-	color: white;
 	background-color: lightgray;
 }
