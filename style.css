@@ -3,7 +3,6 @@
 	color: #F2F2F2;
 	background-color: #050203;
 	margin: 0%;
-	padding-top: 125px;
   }
 }
 
@@ -35,6 +34,25 @@
 
 .navbar a:hover {
 	color: lightgray;
+}
+
+video {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+}
+
+.cover {
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (min-width:600px) {h1 {
@@ -84,5 +102,5 @@
 footer {
 	text-align: center;
 	background-color: #722f37;
-	padding-top: 5px;
+	padding: 50px;
 }
