@@ -1,16 +1,21 @@
-  body {
+  @media screen and (min-width:600px){ body {
 	font-family: 'Raleway', sans-serif;
 	color: #F2F2F2;
-	background-color: #121212;
+	background-color: #050203;
     margin: 0;
   }
+}
+
+  @media screen and (max-width:768px){ body {
+	font-family: 'Raleway', sans-serif;
+	color: #F2F2F2;
+	background-color: #050203;
+    margin: 0;
+  }
+}
 
 .navbar {
-	background: rgba(0, 0, 0, 0.7);
-	float: center;
-	position: relative;
-	display: inline-block;
-	overflow: hidden;
+	background: #722f37;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -30,38 +35,36 @@
 	color: lightgray;
 }
 
-div .background {
-  width: 600px;
-  height: auto;
-  background-image: url("C:\Users\Ben\OneDrive\Documents\GitHub\Benjanobi.github.io\images\cover.jpg"), url(C:\Users\Ben\OneDrive\Documents\GitHub\Benjanobi.github.io\images\cover (2).jpg);
-  background-attachment: fixed, scroll;
-  background-repeat: no-repeat, repeat-y;
-}
-
-h1 {
-	background-color: lightgray;
-	border-top: solid white;
-	border-bottom: solid white;
-	border-width: 3px;
-	margin: 0%;
-	padding: 15px 250px;
+@media screen and (min-width:600px) {h1 {
+	background-color: #722f37;
+	padding:15px;
+	padding-left: 15px;
+	margin-left: 225px;
+	margin-right: 68%;
 	font-family: 'Raleway', sans-serif;
 	font-size: 28px;
 	text-align: center;
-	text-transform: uppercase;
-}
-
-@media screen and (max-width:768px) { h1 { 
-	padding: 15px 25px;
+	border-radius: 50px;
   }
 }
 
-h2 {
+@media screen and (max-width:768px) { h1 { 
+	background-color: #722f37;
+	padding:15px;
+	margin: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	text-align: center;
+  }
+}
+
+@media screen and (min-width:600px) { h2 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 28px;
 	font-weight: 500;
 	text-align: left;
 	text-transform: uppercase;
+}
 }
 
 .article {
@@ -76,20 +79,8 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 600px) { div.gallery img {
-  width: 25%;
-  height: auto;
-  float: center;
-  }
-}
-
-div.gallery img {
-  width: 25%;
-  height: auto;
-  float: left;
-  }
-
 footer {
 	text-align: center;
-	background-color: lightgray;
+	background-color: #722f37;
+	padding: 15px;
 }
