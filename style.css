@@ -16,7 +16,7 @@
 }
 
 .navbar {
-	background: #570861;
+	background: #722f37;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -37,7 +37,7 @@
 }
 
 @media screen and (min-width:600px) {h1 {
-	background-color: #722f37;
+	background-color: #301934;
 	padding:15px;
 	padding-left: 15px;
 	margin-left: 225px;
@@ -50,7 +50,7 @@
 }
 
 @media screen and (max-width:768px) { h1 { 
-	background-color: #722f37;
+	background-color: #301934;
 	padding:15px;
 	margin: 25px;
 	font-family: 'Raleway', sans-serif;
