@@ -1,7 +1,7 @@
   @media screen and (min-width:600px){ body {
 	font-family: 'Raleway', sans-serif;
-	color: #303030
-	background-color: -#303030;
+	color: #F2F2F2;
+	background-color: #191919;
 	margin: 0%;
   }
 }
@@ -9,14 +9,14 @@
   @media screen and (max-width:768px){ body {
 	font-family: 'Raleway', sans-serif;
 	color: #F2F2F2;
-	background-color: #050203;
+	background-color: #191919;
     margin: 0;
 	padding-top: 75px;
   }
 }
 
 .navbar {
-	background: #722f37;
+	background: #5d2f27;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -56,7 +56,7 @@ video {
 }
 
 @media screen and (min-width:600px) {h1 {
-	background-color: #301934;
+	background-color: #5d2f27;
 	padding:15px;
 	padding-left: 15px;
 	margin-left: 225px;
@@ -69,7 +69,7 @@ video {
 }
 
 @media screen and (max-width:768px) { h1 { 
-	background-color: #301934;
+	background-color: #5d2f27;
 	padding:15px;
 	margin: 25px;
 	font-family: 'Raleway', sans-serif;
@@ -101,6 +101,6 @@ video {
 
 footer {
 	text-align: center;
-	background-color: #722f37;
+	background-color: #5d2f27;
 	padding: 50px;
 }
